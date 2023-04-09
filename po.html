@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="po2.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero-text">
+            <h1>Welcome to My Portfolio</h1>
+            <p>My name is Deelip jani, and I am a Civil engineering student at IIT Bombay.</p>
+            <a href="#about" class="btn">Learn More</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <img src="wizarding-world-portrait copy.png" alt="Profile Picture">
+                <p>Hi! I will add my intro and intrests later on..</p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="project">
+                    <img src="project1.jpg" alt="Project 1">
+                    <div class="project-details">
+                        <h3>Project 1</h3>
+                        <p>Right now this is empty, lets see </p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="project2.jpg" alt="Project 2">
+                    <div class="project-details">
+                        <h3>Project 2</h3>
+                        <p>This ones empty too!</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Contact Me (right now just for showcase:)</h2>
+                <form action="send-email.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+
+                    <button type="submit" class="btn">Send</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 [DEELIP JANI]</p>
+        </div>
+    </footer>
+</body>
+</html>
