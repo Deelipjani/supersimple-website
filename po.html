@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="po2.css">
+    <style>
+		body {
+			background-color: #f8f8f8;
+			color: #333;
+		}
+		.dark-mode {
+			background-color: #333;
+			color: #f8f8f8;
+		}
+	</style>
 </head>
 <body>
     <header>
@@ -77,5 +87,13 @@
             <p>&copy; 2023 [DEELIP JANI]</p>
         </div>
     </footer>
+     <button onclick="toggleDarkMode()" class="btn">Toggle Dark Mode</button>
+
+	<script>
+		function toggleDarkMode() {
+			const body = document.body;
+			body.classList.toggle('dark-mode');
+		}
+	</script>
 </body>
 </html>
