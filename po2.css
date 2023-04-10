@@ -11,6 +11,9 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: #333;
+    
+    background-color: #f8f8f8;
+    color: #333;
 }
 
 a {
@@ -155,6 +158,10 @@ form button[type="submit"] {
 form button[type="submit"]:hover {
     background-color: #555;
 }
+.dark-mode {
+    background-color: #333;
+    color: #f8f8f8;
+  }
 
 /* Footer styles */
 footer {
